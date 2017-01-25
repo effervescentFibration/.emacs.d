@@ -4,11 +4,12 @@
                          ("marmalade" . "https://marmalade-repo.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")))
 (package-initialize)
-(package-refresh-contents)
+;; (package-refresh-contents)
 
 ;; MELPA Packages
 
 (require 'cmake-mode)
+(require 'ess)
 (require 'flycheck)
 (require 'flycheck-clangcheck)
 (require 'helm)

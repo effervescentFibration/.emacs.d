@@ -1,0 +1,8 @@
+/ssh:ubuntu@192.12.242.175:/home/ubuntu/cuplv/FixrGraph/scripts/config_rhys.bash
+#_assh_bubuntu@192.12.242.175_b_ahome_aubuntu_acuplv_aFixrGraph_ascripts_aconfig__rhys.bash#
+/ssh:ubuntu@192.12.242.175:/media/data/rhys_extraction/iso_index.json
+#_assh_bubuntu@192.12.242.175_b_amedia_adata_arhys__extraction_aiso__index.json#
+/ssh:ubuntu@192.12.242.175:/media/data/rhys_extraction/iso_list.txt
+#_assh_bubuntu@192.12.242.175_b_amedia_adata_arhys__extraction_aiso__list.txt#
+/home/cuplv/Documents/Assignment_8/hmm.py
+/home/cuplv/Documents/Assignment_8/#hmm.py#
