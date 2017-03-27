@@ -249,7 +249,7 @@ See doc for the variable `urweb-mode-info'."
 
     (,urweb-keywords-regexp . font-lock-keyword-face)
     (,urweb-sql-keywords-regexp . font-lock-sql-face)
-    (,urweb-cident-regexp . font-lock-cvariable-face))
+    (,urweb-cident-regexp . font-lock-builtin-face))
   "Regexps matching standard Ur/Web keywords.")
 
 (defface font-lock-type-def-face
@@ -280,11 +280,11 @@ See doc for the variable `urweb-mode-info'."
 (defvar font-lock-sql-face 'font-lock-sql-face
   "Face name to use for SQL keywords.")
 
-(defface font-lock-cvariable-face
-  '((t (:foreground "dark blue")))
+(defface font-lock-builtin-face
+  '((t (:bold t)))
   "Font Lock mode face used to highlight capitalized identifiers."
   :group 'font-lock-highlighting-faces)
-(defvar font-lock-cvariable-face 'font-lock-cvariable-face
+(defvar font-lock-builtin-face 'font-lock-builtin-face
   "Face name to use for capitalized identifiers.")
 
 (defface font-lock-tag-face
